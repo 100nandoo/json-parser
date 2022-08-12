@@ -1,35 +1,31 @@
 <script>
+  import Footer from '$lib/Footer.svelte'
+  import Navbar from '$lib/Navbar.svelte'
   import '../app.css'
 </script>
 
-<main>
-  <slot />
-</main>
+<div class="box">
+  <header>
+    <Navbar text="Json Parser" />
+  </header>
 
-<footer>
-  <p>Copyright 2022</p>
-</footer>
+  <main>
+    <slot />
+  </main>
+
+  <Footer />
+</div>
 
 <style>
+  .box {
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+  }
   main {
     flex: 1;
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100%;
-  }
-
-  footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 40px;
-  }
-
-  @media (min-width: 480px) {
-    footer {
-      padding: 40px 0;
-    }
   }
 </style>

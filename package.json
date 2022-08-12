@@ -15,7 +15,6 @@
     "@tailwindcss/forms": "^0.5.2",
     "@tailwindcss/typography": "^0.5.3",
     "autoprefixer": "^10.4.7",
-    "carbon-components-svelte": "^0.67.8",
     "daisyui": "^2.18.1",
     "eslint": "^8.16.0",
     "eslint-config-prettier": "^8.3.0",

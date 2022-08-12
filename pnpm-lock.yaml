@@ -7,7 +7,6 @@ specifiers:
   '@tailwindcss/forms': ^0.5.2
   '@tailwindcss/typography': ^0.5.3
   autoprefixer: ^10.4.7
-  carbon-components-svelte: ^0.67.8
   cookie: ^0.4.1
   daisyui: ^2.18.1
   eslint: ^8.16.0
@@ -33,7 +32,6 @@ devDependencies:
   '@tailwindcss/forms': 0.5.2_tailwindcss@3.1.7
   '@tailwindcss/typography': 0.5.4_tailwindcss@3.1.7
   autoprefixer: 10.4.8_postcss@8.4.14
-  carbon-components-svelte: 0.67.8
   daisyui: 2.20.0_6qxuh3ctkxhae7jnbdaexscv2m
   eslint: 8.21.0
   eslint-config-prettier: 8.5.0_eslint@8.21.0
@@ -456,12 +454,6 @@ packages:
 
   /caniuse-lite/1.0.30001373:
     resolution: {integrity: sha512-pJYArGHrPp3TUqQzFYRmP/lwJlj8RCbVe3Gd3eJQkAV8SAC6b19XS9BjMvRdvaS8RMkaTN8ZhoHP6S1y8zzwEQ==}
-    dev: true
-
-  /carbon-components-svelte/0.67.8:
-    resolution: {integrity: sha512-XvgamXo9/fBEdD5uhbHynnbjDKml9IJHtgHJh1VvHZxCexLwCiVjmLI5Ug7DduDUhw+M6Fjsu+1CMFhioynYBQ==}
-    dependencies:
-      flatpickr: 4.6.9
     dev: true
 
   /chalk/4.1.2:
@@ -1076,10 +1068,6 @@ packages:
     dependencies:
       flatted: 3.2.6
       rimraf: 3.0.2
-    dev: true
-
-  /flatpickr/4.6.9:
-    resolution: {integrity: sha512-F0azNNi8foVWKSF+8X+ZJzz8r9sE1G4hl06RyceIaLvyltKvDl6vqk9Lm/6AUUCi5HWaIjiUbk7UpeE/fOXOpw==}
     dev: true
 
   /flatted/3.2.6:
