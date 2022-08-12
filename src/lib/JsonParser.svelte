@@ -27,27 +27,7 @@
     handleInput()
   }
   onMount(() => {
-    input = `{
-  "hello": {
-    "count": 13
-  },
-  "world": [
-    {
-      "type": "articles",
-      "id": "3",
-      "attributes": {
-        "title": "Json Parser",
-        "body": "The shortest article. Ever.",
-        "status": true,
-        "updated": "2015-05-22T14:56:28.000Z"
-      }
-    }
-  ],
-  "links": {
-    "self": "www.halim.dev",
-    "first": "json.halim.dev"
-  }
-}`
+    input = `{"hello":{"count":13},"world":[{"type":"articles","id":"3","attributes":{"title":"JsonParser","body":"Theshortestarticle.Ever.","status":true,"updated":"2015-05-22T14:56:28.000Z"}}],"links":{"self":"www.halim.dev","first":"json.halim.dev"}}`
   })
 </script>
 
